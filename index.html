@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Ils ont choisi nos vélos...</h1>
+    <div class="slider">
+        <div class="container-slides">
+            <img class ="active" src="photo-velo\velo1.jpg" alt="">
+            <img src="photo-velo\velo2.jpg" alt="">
+            <img src="photo-velo\velo3.jpg" alt="">
+        </div>
+        <div class="commandes">
+            <button class="left">
+                <img src="elements-navigation\left.svg">
+
+            </button>
+            <button class="right">
+                <img src="elements-navigation\right.svg">
+            </button>
+        </div>
+        <div class="cercles">
+            <button data-clic="1" class="cercle active-cercle"></button>
+            <button data-clic="2" class="cercle"></button>
+            <button data-clic="3" class="cercle"></button>
+        </div>
+        <div class="player">
+            <button class="play">
+            <img src="photo-player\bouton-jouer.png">
+            </button>
+            <button class="arret">
+            <img src="photo-player/pause-button.png">
+        </button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
